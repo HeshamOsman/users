@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: create
+  datasource:
+    url: jdbc:mysql://${db-url}
+    username: ${db-username}
+    password: ${db-password}
